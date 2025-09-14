@@ -8,6 +8,7 @@ import {
 } from "react-icons/tb";
 import { TiCss3 } from "react-icons/ti";
 import { SiMongodb, SiTailwindcss } from "react-icons/si";
+import anujImg from "/images/image1.png";
 import SoftSkills from "../components/about/SoftSkills";
 import FunFact from "../components/about/FunFact";
 import DownloadResume from "../components/download/DownloadResume";
@@ -72,7 +73,7 @@ const About = () => {
       {/* Intro Section */}
       <div className="grid grid-cols-1  md:grid-cols-3 items-center gap-10">
         <motion.img
-          src="/images/image1.png"
+          src={anujImg}
           alt="Profile"
           className="w-48 h-48 md:w-56 md:h-56 mx-auto md:mx-0 rounded-full object-cover shadow-lg border-4 border-primary"
           initial={{ opacity: 0, scale: 0.5 }}
