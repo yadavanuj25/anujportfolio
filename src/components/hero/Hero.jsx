@@ -1,6 +1,4 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
-import { IoIosArrowRoundForward } from "react-icons/io";
 import Blob from "/images/blob.svg";
 import HeroPng from "/images/image1.png";
 import { animate, motion } from "framer-motion";
