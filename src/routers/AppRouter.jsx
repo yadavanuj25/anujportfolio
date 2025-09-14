@@ -9,7 +9,7 @@ import Experience from "../pages/Experience";
 
 const AppRouter = () => {
   return (
-    <Router basename="/anujportfolio">
+    <Router basename="/">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
